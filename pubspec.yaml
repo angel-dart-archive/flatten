@@ -1,0 +1,11 @@
+author: "Tobe O <thosakwe@gmail.com>"
+description: "Optimizes a router by condensing all its routes into one level."
+homepage: "https://github.com/angel-dart/flatten.git"
+name: "flatten"
+version: "1.0.0"
+environment:
+  sdk: ">=1.19.0"
+dependencies:
+  angel_route: ^1.0.0
+dev_dependencies:
+  test: ^0.12.0
