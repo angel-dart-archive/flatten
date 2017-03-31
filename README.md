@@ -14,8 +14,21 @@ can be resolved much faster.
 The Angel framework uses a flattened router in production mode to optimize servers.
 
 # Installation
+In your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  angel_route: ^1.0.0
+  flatten: ^1.0.0
+```
 
 # Usage
+import 'package:angel_route/angel_route.dart';
+import 'package:flatten/flatten.dart';
+
+```dart
+var flattened = flatten(myRouter);
+```
 
 # Caveats
 This package doesn't actually modify the existing router; instead, it
