@@ -1,3 +1,6 @@
+# DEPRECATED
+The functionality formerly offered by this package has long been rolled in `package:angel_route`.
+
 # flatten
 [![version 1.0.0](https://img.shields.io/badge/pub-1.0.0-brightgreen.svg)](https://pub.dartlang.org/packages/flatten)
 [![build status](https://travis-ci.org/angel-dart/flatten.svg)](https://travis-ci.org/angel-dart/flatten)
